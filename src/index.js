@@ -52,9 +52,9 @@ const defaultProps = {
 
 const defaultPollingConfig = {
   enabled: inBrowser && unsupportedUserAgentsPattern.test(navigator.userAgent),
-  url: "https://www.swapi.tech/api/",
-  timeout: 5000,
-  interval: 5000
+  url: "https://api-ase1-1.viulive.com/api",
+  timeout: 10000,
+  interval: 10000
 };
 
 // base class that detects offline/online changes
